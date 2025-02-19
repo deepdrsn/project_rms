@@ -1,0 +1,60 @@
+
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    text-align: center;
+    background-color: #f9fafb;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Container */
+.container {
+    margin: 80px auto;
+    max-width: 500px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h1 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+/* Navigation */
+.navigation {
+    margin-top: 30px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #2563eb;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background 0.3s, transform 0.2s;
+    box-shadow: 0 3px 6px rgba(37, 99, 235, 0.2);
+}
+
+.btn:hover {
+    background: #1e40af;
+    transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        max-width: 90%;
+        padding: 15px;
+    }
+}
